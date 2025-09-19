@@ -2,10 +2,12 @@
 Минималистичный, лёгкий, адаптивный слайдер контента
 
 Подключение:
-<link rel="stylesheet" type="text/css" href="slider.css" media="all">
+
+<link rel="stylesheet" type="text/css" href="slider.css">
 <script src="slider.js"></script>
 
 Инициация в самом скрипте. Параметры по умолчанию:
+
 $('.slider').simpleSlider({
   itemsPerPage: 4, // слайдов на страницу
   step: 1, // null = по странице, 1 = по одному слайду
